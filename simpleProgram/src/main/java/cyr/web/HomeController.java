@@ -37,7 +37,7 @@ public class HomeController {
 				attr.addFlashAttribute("user", user);
 				return "redirect:/home/singin";
 			}
-			return "tok";
+			return "ttok";
 		}
 		return "tno";
 	}

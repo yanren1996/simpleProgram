@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- ok*2
+	±K½X¿ù»~
 </body>
 </html>
