@@ -37,9 +37,9 @@ public class HomeController {
 				attr.addFlashAttribute("user", user);
 				return "redirect:/home/singin";
 			}
-			return "ttok";
+			return "worrgpsword";
 		}
-		return "tno";
+		return "nothasid";
 	}
 	
 	@RequestMapping(value="/singin",method = RequestMethod.GET,produces = "application/json; charset=utf-8")
