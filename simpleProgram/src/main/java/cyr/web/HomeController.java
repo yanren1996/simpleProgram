@@ -32,8 +32,6 @@ public class HomeController {
 		if(service.hasThisAccount(account)) {
 			if(service.truePassword(account, password)) {
 				User user=service.findById(account);
-				//System.out.println(user.getLastName());
-				//model.addAttribute("user",user);
 				attr.addFlashAttribute("user", user);
 				return "redirect:/home/singin";
 			}
